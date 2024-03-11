@@ -41,5 +41,9 @@ namespace ImplementacjaInterfejsow
                     }
             }
         }
+        public override string ToString()
+        {
+            return $"{Nazwisko} {DataZatrudnienia} {Wynagrodzenie}";
+        }
     }
 }
