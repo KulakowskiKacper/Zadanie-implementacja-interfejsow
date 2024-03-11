@@ -5,6 +5,7 @@ namespace ImplementacjaInterfejsow
 {
     public class Pracownik
     {
+
         private string nazwisko;
         public string Nazwisko
         {
@@ -40,6 +41,18 @@ namespace ImplementacjaInterfejsow
                     wynagrodzenie = value;
                     }
             }
+        }
+        public Pracownik(string nazwisko, DateTime dataZatrudnienia, double wynagrodzenie)
+        {
+            Nazwisko = nazwisko;
+            DataZatrudnienia = dataZatrudnienia;
+            Wynagrodzenie = wynagrodzenie;
+        }
+        public Pracownik()
+        {
+            Nazwisko = "Anonim";
+            DataZatrudnienia = DateTime.Now;
+            Wynagrodzenie = 0;
         }
         public override string ToString()
         {
