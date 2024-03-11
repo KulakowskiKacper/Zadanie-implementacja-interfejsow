@@ -1,0 +1,15 @@
+C:\Users\kaq12\Desktop\C#\ImplementacjaInterfejsow\bin\Debug\net8.0\ImplementacjaInterfejsow.exe
+C:\Users\kaq12\Desktop\C#\ImplementacjaInterfejsow\bin\Debug\net8.0\ImplementacjaInterfejsow.deps.json
+C:\Users\kaq12\Desktop\C#\ImplementacjaInterfejsow\bin\Debug\net8.0\ImplementacjaInterfejsow.runtimeconfig.json
+C:\Users\kaq12\Desktop\C#\ImplementacjaInterfejsow\bin\Debug\net8.0\ImplementacjaInterfejsow.dll
+C:\Users\kaq12\Desktop\C#\ImplementacjaInterfejsow\bin\Debug\net8.0\ImplementacjaInterfejsow.pdb
+C:\Users\kaq12\Desktop\C#\ImplementacjaInterfejsow\obj\Debug\net8.0\ImplementacjaInterfejsow.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kaq12\Desktop\C#\ImplementacjaInterfejsow\obj\Debug\net8.0\ImplementacjaInterfejsow.AssemblyInfoInputs.cache
+C:\Users\kaq12\Desktop\C#\ImplementacjaInterfejsow\obj\Debug\net8.0\ImplementacjaInterfejsow.AssemblyInfo.cs
+C:\Users\kaq12\Desktop\C#\ImplementacjaInterfejsow\obj\Debug\net8.0\ImplementacjaInterfejsow.csproj.CoreCompileInputs.cache
+C:\Users\kaq12\Desktop\C#\ImplementacjaInterfejsow\obj\Debug\net8.0\ImplementacjaInterfejsow.sourcelink.json
+C:\Users\kaq12\Desktop\C#\ImplementacjaInterfejsow\obj\Debug\net8.0\ImplementacjaInterfejsow.dll
+C:\Users\kaq12\Desktop\C#\ImplementacjaInterfejsow\obj\Debug\net8.0\refint\ImplementacjaInterfejsow.dll
+C:\Users\kaq12\Desktop\C#\ImplementacjaInterfejsow\obj\Debug\net8.0\ImplementacjaInterfejsow.pdb
+C:\Users\kaq12\Desktop\C#\ImplementacjaInterfejsow\obj\Debug\net8.0\ImplementacjaInterfejsow.genruntimeconfig.cache
+C:\Users\kaq12\Desktop\C#\ImplementacjaInterfejsow\obj\Debug\net8.0\ref\ImplementacjaInterfejsow.dll

@@ -9,27 +9,27 @@ namespace ImplementacjaInterfejsow
         private string nazwisko;
         public string Nazwisko
         {
-            get { return nazwisko; }
-            set 
-            { nazwisko = value.Trim(); }
+            get => nazwisko;
+            set => nazwisko = value.Trim();
         }
         private DateTime dataZatrudnienia;
         public DateTime DataZatrudnienia
         {
-            get { return dataZatrudnienia; }
-            set 
-            {
+            get => dataZatrudnienia;
+            
+            set {
                 if (value > DateTime.Now)
                 {
-                    throw new DataException("Data zatrudnienia nie może być z przyszłości");
+                    throw new ArgumentException("Data zatrudnienia nie może być z przyszłości");
                 }
-                 dataZatrudnienia = value;
-            }
+                dataZatrudnienia = value;
+                }
+            
         }
         private double wynagrodzenie;
         public double Wynagrodzenie
         {
-            get { return wynagrodzenie; }
+            get => wynagrodzenie;
             set 
             {
                 if (value < 0)
@@ -37,11 +37,18 @@ namespace ImplementacjaInterfejsow
                     value = 0;
                     
                 }
-                else{
+                else
+                {
                     wynagrodzenie = value;
-                    }
+                }
             }
         }
+        public override string ToString()
+        {
+            return $"{nazwisko} {dataZatrudnienia:d MMM yyyy} {wynagrodzenie}";
+        }
+
+        public int CzasZatrudnienia => (DateTime.Now - dataZatrudnienia).Days / 30;
         public Pracownik(string nazwisko, DateTime dataZatrudnienia, double wynagrodzenie)
         {
             Nazwisko = nazwisko;
@@ -53,10 +60,6 @@ namespace ImplementacjaInterfejsow
             Nazwisko = "Anonim";
             DataZatrudnienia = DateTime.Now;
             Wynagrodzenie = 0;
-        }
-        public override string ToString()
-        {
-            return $"{Nazwisko} {DataZatrudnienia} {Wynagrodzenie}";
         }
     }
 }
